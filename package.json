@@ -1,0 +1,28 @@
+{
+  "name": "visual-regression-jest",
+  "version": "1.0.0",
+  "description": "Demo of visual regression testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "test"
+  },
+  "keywords": [
+    "react",
+    "jest",
+    "jest-image-snapshot",
+    "docker"
+  ],
+  "author": "Timothy Vernon <timothy.n.vernon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "parcel-bundler": "^1.12.4"
+  }
+}
