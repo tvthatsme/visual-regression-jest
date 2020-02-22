@@ -18,6 +18,10 @@
   ],
   "author": "Timothy Vernon <timothy.n.vernon@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tvthatsme/visual-regression-jest"
+  },
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
