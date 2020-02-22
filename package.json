@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test-in-docker:dev": "make local_test",
+    "test-in-docker:ci": "make ci_test"
   },
   "keywords": [
     "react",
@@ -30,6 +33,7 @@
     "jest-transform-css": "^2.0.0",
     "jest-transform-file": "^1.1.1",
     "jsdom-screenshot": "^3.2.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "puppeteer": "^2.1.1"
   }
 }

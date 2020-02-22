@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  # Watch the src directory for any changes.
+  local_test:
+    build:
+      context: .
+    command: npm run test:watch
+    volumes:
+      - './src:/app/src'
+
+  # What's there is there. No second chances in CI.
+  ci_test:
+    build:
+      context: .
+    environment:
+      - CI=true
+    command: npm run test
