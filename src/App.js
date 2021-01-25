@@ -4,7 +4,7 @@ import './styles.css';
 function App() {
   return (
     <div>
-      <h1 style={{ marginTop: 0 }}>This is a simple React application</h1>
+      <h1 style={{ marginTop: 0 }}>This is a simple React Test application</h1>
     </div>
   );
 }
